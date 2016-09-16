@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Lab 1</string>
-    <string name="hello_message">Namaste!</string>
-    <string name="ButtonText">I\'m a button</string>
+    <string name="hello_message"> नमस्ते दुनिया</string>
+    <string name="ButtonText">मैं एक बटन हूं</string>
+
+    <string name="title_activity_login">लॉगिन गतिविधि</string>
+    <string name="login">लॉगिन</string>
+    <string name="loginhinttext">लॉगिन नाम</string>
+    <string name="pwd">पासवर्ड</string>
+    <string name="pwdhinttext">यहाँ पासवर्ड</string>
+
+    <string name="btn1Text">बटन एक</string>
+    <string name="btn2Text">बटन दो</string>
+    <string name="SwitchText">कुछ सक्षम</string>
 
 </resources>
