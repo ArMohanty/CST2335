@@ -11,23 +11,33 @@
 
 
         <activity android:name=".StartActivity">
+
         </activity>
+
 
 
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login"
             android:theme="@style/AppTheme.NoActionBar">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+
         </activity>
 
 
-        <activity android:name=".ListItemsActivity">
+
+        <activity android:name=".ListItemsActivity"
+            android:label="@string/title_activity_list_item">
+
         </activity>
+
+
 
     </application>
 

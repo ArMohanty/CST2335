@@ -9,8 +9,10 @@
     <string name="pwd">Password</string>
     <string name="pwdhinttext">Password here</string>
 
+    <string name="title_activity_list_item">ListItemActivity</string>
     <string name="btn1Text">Button 1</string>
     <string name="btn2Text">Button 2</string>
+    <string name="btnlogin">Login</string>
     <string name="SwitchText">Enable Something</string>
 </resources>
 

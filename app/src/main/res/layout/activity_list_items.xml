@@ -7,7 +7,9 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.localadmin.lab1.ListItemsActivity">
+    tools:context="com.example.localadmin.lab1.ListItemsActivity"
+    tools:showIn="@layout/activity_list_items"
+    >
 
     <GridLayout
         android:layout_width="match_parent"
