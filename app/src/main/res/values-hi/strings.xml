@@ -9,7 +9,8 @@
     <string name="loginhinttext">लॉगिन नाम</string>
     <string name="pwd">पासवर्ड</string>
     <string name="pwdhinttext">यहाँ पासवर्ड</string>
-
+    <string name="login_default">example@domain.com</string>
+    <string name="login_key">Default Email</string>
     <string name="btn1Text">बटन एक</string>
     <string name="btn2Text">बटन दो</string>
     <string name="SwitchText">कुछ सक्षम</string>

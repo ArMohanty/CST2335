@@ -8,6 +8,8 @@
     <string name="loginhinttext">login name</string>
     <string name="pwd">Password</string>
     <string name="pwdhinttext">Password here</string>
+    <string name="login_default">example@domain.com</string>
+    <string name="login_key">Default Email</string>
 
     <string name="title_activity_list_item">ListItemActivity</string>
     <string name="btn1Text">Button 1</string>

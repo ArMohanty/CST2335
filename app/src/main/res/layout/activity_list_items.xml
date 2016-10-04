@@ -30,18 +30,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="New CheckBox"
+        android:id="@+id/CB"
          />
 
         <Switch
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/SwitchText"
+            android:id="@+id/SB"
             />
 
         <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btn2Text"
-            android:background="@android:drawable/btn_star_big_on" />
+            android:background="@android:drawable/btn_star_big_on"
+            android:id="@+id/IB"/>
     </GridLayout>
 </RelativeLayout>
