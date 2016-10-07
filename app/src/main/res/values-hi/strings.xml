@@ -15,4 +15,9 @@
     <string name="btn2Text">बटन दो</string>
     <string name="SwitchText">कुछ सक्षम</string>
 
+    <string name="btnchat">बातचीत शुरू कीजिए</string>
+
+    <string name="btnedittext">संमपादित पाठ</string>
+    <string name="btnsend">भेजना</string>
+
 </resources>

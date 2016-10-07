@@ -2,6 +2,7 @@ package com.example.localadmin.lab1;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -31,6 +32,18 @@ public class StartActivity extends AppCompatActivity {
 
 
         } );
+        Button button3 = (Button) findViewById(R.id.b3);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Log.i(ACTIVITY_NAME, "User clicked Start Chat");
+
+
+                Intent intent = new Intent(StartActivity.this, ChatWindow.class);
+                startActivity(intent);
+            }
+        });
 
     }
     @Override
@@ -79,4 +92,10 @@ public class StartActivity extends AppCompatActivity {
         Log.i(ACTIVITY_NAME, "In onDestroy()");
 
     }
+
+
+
+
+
+
 }
