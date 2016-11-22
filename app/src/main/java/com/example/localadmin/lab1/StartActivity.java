@@ -40,8 +40,17 @@ public class StartActivity extends AppCompatActivity {
                 Log.i(ACTIVITY_NAME, "User clicked Start Chat");
 
 
-                Intent intent = new Intent(StartActivity.this, ChatWindow.class);
+                Intent intent = new Intent(StartActivity.this, MessageListActivity.class);
                 startActivity(intent);
+            }
+        });
+
+        // Step 2 of Lab 6
+        Button weatherButton = (Button) findViewById(R.id.weatherButton);
+        weatherButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(StartActivity.this, WeatherForecast.class));
             }
         });
 

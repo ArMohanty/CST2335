@@ -8,13 +8,15 @@
         android:name="android.hardware.camera"
         android:required="true" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".StartActivity"> </activity>
+        <activity android:name=".StartActivity"></activity>
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login"
@@ -27,7 +29,7 @@
         </activity>
         <activity
             android:name=".ListItemsActivity"
-            android:label="@string/title_activity_list_item"> </activity>
+            android:label="@string/title_activity_list_item" />
         <!--
  ATTENTION: This was auto-generated to add Google Play services to your project for
      App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
@@ -39,7 +41,24 @@
         <activity
             android:name=".ChatWindow"
             android:label="@string/title_activity_chat_window"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WeatherForecast"
+            android:label="@string/title_activity_weather_forecast"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MessageListActivity"
+            android:label="@string/title_message_list"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".MessageDetailActivity"
+            android:label="@string/title_message_detail"
+            android:parentActivityName=".MessageListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.localadmin.lab1.MessageListActivity" />
+        </activity>
     </application>
 
 </manifest>

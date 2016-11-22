@@ -22,6 +22,14 @@
 
     <string name="edithinttextchatw">Edit Text</string>
     <string name="btnsend">Send</string>
+    <string name="title_activity_weather_forecast">WeatherForecast</string>
+
+    <string name="btnweather">Weather Forecast</string>
+    <string name="tv_currenttemp">Current Temperature</string>
+    <string name="tv_mintemp">Minimum Temperature</string>
+    <string name="tv_maxtemp">Maximum Temperature</string>
+    <string name="title_message_list">Messages</string>
+    <string name="title_message_detail">Message Detail</string>
 
 </resources>
 

@@ -20,4 +20,9 @@
     <string name="btnedittext">संमपादित पाठ</string>
     <string name="btnsend">भेजना</string>
 
+    <string name="btnweather_">मौसम पूर्वानुमान</string>
+    <string name="tv_currenttemp">वर्तमान तापमान</string>
+    <string name="tv_mintemp">न्यूनतम तापमान</string>
+    <string name="tv_maxtemp">अधिकतम तापमान</string>
+
 </resources>
